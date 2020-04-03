@@ -1,0 +1,4 @@
+person={"name":"Pooja","age":"20","gender":"Female"}
+key = input("What information do you want to know about the person? ").lower()
+result = person.get(key, "this information is not available ")
+   print(result)
