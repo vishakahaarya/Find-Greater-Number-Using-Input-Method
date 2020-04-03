@@ -1,0 +1,4 @@
+people = ["Vishakha", "Arya"]
+user = input("Enter the user name ")
+people.append(user)
+print(people)
