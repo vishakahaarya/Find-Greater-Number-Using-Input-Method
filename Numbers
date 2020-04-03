@@ -1,0 +1,4 @@
+productno ="037-00901-00027"
+print("Country Code: " + productno[0:3])
+print("Product: "+ productno[4:9])
+print("Batch No: " + productno[10:])
