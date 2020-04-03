@@ -1,0 +1,5 @@
+print ('Hello World')
+text = str(input("enter your first name"))
+text1 = str(input("enter your middle name"))
+text2 = str(input("enter your last name"))
+print("Your initials are: "+ text+ " "+text1+ " "+text2)
