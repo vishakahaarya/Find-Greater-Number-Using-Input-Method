@@ -1,4 +1,4 @@
-people = ["Vishakha", "Arya"]
+people = ["Pooja", "Samayra"]
 user = input("Enter the user name ")
 people.append(user)
    print(people)
