@@ -1,4 +1,4 @@
-print ('Hello World')
+print ('Hello')
 text = str(input("Enter your first name "))
 text1 = str(input("Enter your middle name "))
 text2 = str(input("enter your last name "))
