@@ -1,23 +1,9 @@
-import java.util.Scanner;
-public class Main{
-    public static void main (String[]args){
-      System.out.println("enter the a");  
-      Scanner myobj = new Scanner(System.in);
-      int a = myobj.nextInt();
-      System.out.println("enter the b"); 
-      int b = myobj.nextInt();
-      System.out.println("enter the c"); 
-      int c = myobj.nextInt();
-
-      if(a>b){
-	        System.out.println("a is greater");
-	    }
-		else if(b>c){
-		System.out.println("b is greater");
-		}
-		else{
-		System.out.println("c is greater");
-
-		}
-    }
-}
+x = int(input('Enter the X ' ))
+y = int(input('Enter the Y '))
+z = int(input('Enter the Z '))
+if(x>y):
+    print('X is Greater ')
+elif(y>z):
+    print('Y is Greater')
+else:
+    print('Z is Greater')
